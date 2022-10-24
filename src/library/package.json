@@ -1,0 +1,15 @@
+{
+  "name": "chartjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild ./src/index.ts --outdir=\"../dist/custom-library\" --format=esm --tree-shaking=true --bundle --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "zingchart": "^2.9.10"
+  }
+}
